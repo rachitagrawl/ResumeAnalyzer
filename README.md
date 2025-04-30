@@ -18,7 +18,9 @@ pip (Python package manager)
        a. clf.pkl - The pre-trained model file.
        b. tfidf.pkl - The TF-IDF vectorizer.
        c. encoder.pkl - The label encoder for job category prediction.
-
+4. For clf file you have to download it from this link:
+   https://www.kaggle.com/datasets/noorsaeed/resume-trained-save-model
+   
 #How to Run the App
 1. After installing the dependencies and ensuring the necessary files are in place, run the following command to start the Streamlit app:
             streamlit run app.py
